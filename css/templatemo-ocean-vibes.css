@@ -121,14 +121,6 @@ a {
     transition: 0.25s;
 }
 
-<<<<<<< HEAD
-=======
-#nav_link{
-    margin-left: 6em;
-    margin-top: -1em;
-}
->>>>>>> 18f934bc90cfd5a8384f85105b8d342dd7eacf86
-
 .tm-nav-link:hover,
 .tm-nav-link.active {
     color: #309AFD;
