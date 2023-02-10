@@ -121,10 +121,6 @@ a {
     transition: 0.25s;
 }
 
-#nav_link{
-    margin-left: 4.5em;
-    margin-top: -1em;
-}
 
 .tm-nav-link:hover,
 .tm-nav-link.active {
