@@ -8,12 +8,21 @@ https://templatemo.com/tm-554-ocean-vibes
 
 html { overflow-x: hidden; }
 
+
 body {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 19px;
     line-height: 1.8em;
     overflow-x: hidden;
-    background-image: url('../bg.jpg');
+    background-image: url('');
+}
+
+body {
+    background: url('../bg.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .tm-intro-imgs{
