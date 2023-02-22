@@ -48,12 +48,25 @@ a:hover, a.active { color: black; }
 button.tm-btn {
     padding: 15px 40px;
 }
-
 .tm-btn:hover {
     color: white;
     background-color: #49b4e9;
 }
 
+.tm-btn-secondary{
+    margin-top: 170px;
+    width: 70%;
+}
+
+.tm-btn-thirdly{
+    margin-left: 100px;
+}
+
+.tm-btn-fourth{
+    margin-top: 150px;
+    width: 50%;
+    margin-right: 140px;
+}
 
 h1 { font-size: 3rem; }
 em { display: block; }
@@ -174,6 +187,8 @@ a {
     padding: 40px 55px 50px; 
 }
 
+
+
 .tm-intro-col-l {
     margin-right: 40px;
 }
@@ -223,8 +238,8 @@ button.mfp-arrow {
 /* Intro */
 .tm-intro-imgs {
     max-width: 500px;
-    max-height: 500px;
-    margin-top: 50px;
+    max-height: 450px;
+    margin-top: 60px;
 }
 
 /* Gallery */
@@ -286,6 +301,7 @@ a.tm-paging-link:hover {
 .tm-gallery-links li {
     list-style: none;
     margin-bottom: 20px;
+    block-size: 30px;
 }
 
 .tm-gallery-link-icon {
@@ -298,7 +314,7 @@ a.tm-paging-link:hover {
     margin: 15px 10px;
     min-width: 180px;
     max-width: 180px;
-    max-height: 240px;
+    max-height: 280px;
     width: 25%;
     background: #3085a3;
     text-align: center;
@@ -355,6 +371,13 @@ a.tm-paging-link:hover {
 .tm-gallery-container figure p {
 	letter-spacing: 1px;
 	font-size: 68.5%;
+}
+
+.image_select{
+    height: 350px;
+    width: 500px;
+    margin-left: 33px;
+
 }
 
 /*---------------*/
@@ -446,6 +469,7 @@ figure.effect-chico:hover p {
 .tm-contact-row {
     max-width: 1045px;
 }
+
 .tm-about-col {
     margin-left: 40px;
     margin-right: 40px;
@@ -463,11 +487,18 @@ figure.effect-chico:hover p {
 
 .tm-contact-col-r {
     padding-left: 0;
-    padding-right: 30px;
+    padding-right: 0;
+    margin-left: 50px;
 }
 
 .tm-contact-form {
+    margin-left: 40px;
+    margin-right: 40px;
     max-width: 350px;
+}
+
+.tm-contact-forms {
+    width: 500px;
     margin-left: 40px;
     margin-right: 40px;
 }
@@ -479,10 +510,22 @@ figure.effect-chico:hover p {
     box-sizing: border-box;
     padding: 15px;
     width: 100%;
+    margin-bottom: 50px;
+}
+
+.form-select {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.2rem;
+    border: 1px solid #D5D6D7;
+    box-sizing: border-box;
+    padding: 15px;
+    width: 120%;
+    margin-bottom: 20px;
 }
 
 .form-group {
     margin-bottom: 25px;
+    height: 70px;
 }
 
 select:not([multiple]) {
@@ -522,6 +565,12 @@ address {
     }
 
     .tm-contact-form {
+        max-width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 50px;
+    }
+    .tm-contact-forms {
         max-width: 100%;
         margin-left: 0;
         margin-right: 0;
@@ -664,3 +713,4 @@ address {
         margin-left: 30px;
     }
 }
+

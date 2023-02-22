@@ -270,3 +270,16 @@ $(document).ready(function () {
         $('.tm-intro-img').attr('src', img);
     }
 });
+
+function myalert() {
+    alert("Thank you for purchasing!\n " +
+        "Hope to see you again, dear customer!");
+}
+
+function productselect(){
+    let filename = document.getElementById('select_product').value;
+    document.getElementById('source_img').src = filename;
+  }
+
+
+  
